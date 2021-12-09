@@ -4,7 +4,7 @@
       "smartphone": "Pixel 4a",
       "count_measurements": 10000,
       "frequency": 100,
-      "id": 4,
+      "id": 1,
       "measurements": [
         {
           "acc_x": 0.1,
@@ -25,6 +25,34 @@
           "gyr_z": 0.1,
           "timestamp": 110000,
           "time_difference": 0.02
+        }
+      ]
+    },
+    {
+      "smartphone": "Pixel 4a",
+      "count_measurements": 475,
+      "frequency": 100,
+      "id": 2,
+      "measurements": [
+        {
+          "acc_x": 0.4743770956993103,
+          "acc_y": 2.1852452754974365,
+          "acc_z": 8.465208053588867,
+          "gyr_x": -0.10918894410133362,
+          "gyr_y": 0.40544986724853516,
+          "gyr_z": -0.16309621930122375,
+          "time_difference": 0,
+          "timestamp": 1638369965563
+        },
+        {
+          "acc_x": 0.32183465361595154,
+          "acc_y": 2.7834508419036865,
+          "acc_z": 9.795618057250977,
+          "gyr_x": -0.09926267713308334,
+          "gyr_y": 0.34253260493278503,
+          "gyr_z": -0.1710372269153595,
+          "time_difference": 0.01,
+          "timestamp": 1638369965573
         }
       ]
     }
