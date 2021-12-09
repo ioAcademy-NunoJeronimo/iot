@@ -1,10 +1,10 @@
-const express = require("express");
-const connectDB = require("./DB/Conncection");
-const app = express();
+const jsonServer = require("json-server");
+const server = jsonServer.create();
+const router = jsonServer.router("db.json"); // <== Will be created later
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3200; // <== You can change the port
 
-connectDB();
-app.use(express.json({ extended: false }));
-app.use("/api/userModel", require("./Api/User"));
-const Port = process.env.Port || 1080;
+server.use(middlewares);
+server.use(router);
 
-app.listen(Port, () => console.log("Server started"));
+server.listen(port);
