@@ -6,6 +6,7 @@
       "frequency": 100,
       "measurements": [
         {
+          "id": 1,
           "acc_x": 0.1,
           "acc_y": 0.1,
           "acc_z": 0.1,
@@ -16,6 +17,7 @@
           "time_difference": 0.01
         },
         {
+          "id": 2,
           "acc_x": 0.1,
           "acc_y": 0.1,
           "acc_z": 0.1,
