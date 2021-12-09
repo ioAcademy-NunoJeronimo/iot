@@ -1,27 +1,19 @@
 {
-  "smartphone": "Pixel 4a",
-  "count_measurements": 10000,
-  "frequency": 100,
-  "measurements": [
+  "users": [
     {
-      "acc_x": 0.1,
-      "acc_y": 0.1,
-      "acc_z": 0.1,
-      "gyr_x": 0.1,
-      "gyr_y": 0.1,
-      "gyr_z": 0.1,
-      "timestamp": 100000,
-      "time_difference": 0.01
+      "id": 1,
+      "name": "David",
+      "age": 30
     },
     {
-      "acc_x": 0.1,
-      "acc_y": 0.1,
-      "acc_z": 0.1,
-      "gyr_x": 0.1,
-      "gyr_y": 0.1,
-      "gyr_z": 0.1,
-      "timestamp": 110000,
-      "time_difference": 0.02
+      "name": "John",
+      "id": 2,
+      "age": 40
+    },
+    {
+      "firstName": "teste3",
+      "lastName": "teste3",
+      "id": 3
     }
   ]
 }
